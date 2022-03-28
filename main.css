@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Poppins&family=Roboto&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    /* background-color: white; */
+    /* outline:1px solid red; */
+}
+a{
+    text-decoration: none !important;
+}
+.nav-link:hover{
+   color: rgba(6, 56, 99, 1)!important; 
+   transform:scale(1.2) !important;
+}
+.nav-link:active{
+    color: rgba(6, 56, 99, 1) !important;
+}
+ .nav-link::after{
+    content: '';
+    background-color: #F6AB0E;
+    width: 0%;
+    display: block;
+    height: 2px;
+    border-radius: 5px;
+    margin: auto;
+    transition: .5s;
+}
+.nav-link:hover::after{
+    width: 100%;
+    color: #F6AB0E;
+} 
+.dropdown-item{
+    color: #F6AB0E !important;
+}
+.dropdown-menu{
+    border: none!important;
+}
+.dropdown-item:hover{
+    background-color: #063863 !important;
+}
+.hero-section{
+    background-color: rgba(6, 56, 99, 0.03);
+    padding: 3em 1.5em;
+    color: rgba(6, 56, 99, 1);
+}
+a.btn{
+    background: linear-gradient(180deg, #F6AB0E 0%, #F6AB0E 50%, #C84016 100%);
+    padding: 0.6em 2em;
+    color: #fff;
+    border-radius: 0%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.contact-text{
+    position: relative;
+    transform: rotate(-90deg);
+    /* right:-80%; */
+    /* top: -50%; */
+    bottom: 50%;
+    left: 50%;
+}
+.home{
+    color: rgba(6, 56, 99, 1);
+}
+.empty{
+    background-color: rgba(6, 56, 99, 1);
+    padding: 29% 25%;
+}
+.cozy-img{
+    width: 50%;
+    position: relative;
+    right: 100px;
+    top: -38px;
+}
+
+.haven{
+    background: rgba(6, 56, 99, 0.03);
+    color: rgba(6, 56, 99, 1);
+}
+.quote{
+    position: relative;
+    top: 85px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #fff;
+}
+.goal-row{
+    background-color: rgba(6, 56, 99, 1);
+    margin-top: 3em !important;
+}
+.goal-text{
+    padding: 7em 2em 0 !important;
+}
+blockquote{
+    box-sizing: border-box;   
+}
+.span-quote{
+    color: #F6AB0E;
+    font-size: 40px;
+}
+.subscribe{
+    color: rgba(6, 56, 99, 1);
+    background: rgba(6, 56, 99, 0.03);
+}
+.emailform{
+    width: 100%;
+     height: 40px;
+     border:none;
+    outline: 0;  
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 10px;
+}
+.submit-btn{
+    right: 0.2rem;
+    bottom: 0.2rem;
+    background: linear-gradient(180deg, #F6AB0E 0%, #F6AB0E 50%, #C84016 100%);
+    color: #fff;
+     border: none;
+    padding: 1% 5%;
+    border-radius: 2px;
+    
+}
+.footer{
+    background-color: rgba(6, 56, 99, 1);
+    padding-top: 5em ;
+}
+.fas{
+    color: #fff;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+.phone-icon{
+    transform: rotate(-90deg);
+}
+.icon-row{
+    margin-top: 80px !important;
+}
+@media (max-width: 1180px){
+    .hero{
+        bottom: -45% !important;
+    }
+    .phone-text{
+        display: none !important;
+    }
+    .email-text{
+        display: none !important;
+    }
+    
+}
+@media (max-width: 768px){
+.test {
+    display: none !important;
+}
+}
+@media (max-width: 992px){
+    /* .nav-link:hover::after{
+        width: 0%;
+        color: #F6AB0E;
+    }  */
+    .nav-link:hover{
+       
+        transform:none !important
+     }
+     
+}
+
+.about{
+    background-color: rgba(6, 56, 99, 1);
+    color: #fff;
+}
+.hero{
+    right: 5%;
+    bottom: -55%;
+    width: 350px;
+    height: 420px !important;
+    padding: 10px 40px;
+}
+.about{
+    padding: 50px;
+}
+.gallery{
+    margin-top: 95px;
+    color: #063863;
+    font-size: 18px;
+}
+.mission{
+    background: rgba(6, 56, 99, 0.03);
+    color: #063863;
+}
+.mission p{
+    font-size: 18px;
+}
+.renovation{
+    color: #063863;
+    font-size: 18px;
+}
+.choose-us{
+    background-color: rgba(6, 56, 99, 1);
+    color: #fff;
+}
+.contact{
+    background-color: rgba(6, 56, 99, 0.03);
+    color: #063863;
+    padding: 8em 2em 5em;
+}
+input[type=text], .contact-email{
+    width: 100%;
+    height: 50px;
+    padding: 10px ;
+    border: 1px solid rgba(6, 56, 99, 1);
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    outline: 0;
+}
+textarea{
+    width: 100%;
+    padding: 10px ;
+    border: 1px solid rgba(6, 56, 99, 1);
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    outline: 0;
+}
+.send-btn{
+    background: linear-gradient(180deg, #F6AB0E 0%, #F6AB0E 50%, #C84016 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 0.5em 3em;
+    color: #fff;
+    border: none;
+    margin-top: 30px;
+}
+.goodbye{
+    background-color: rgba(6, 56, 99, 1);
+    color: #fff;
+    border-radius: 10px;
+}
+.easy{
+    padding: 1.5% 8%;
+    background: linear-gradient(180deg, #F6AB0E 0%, #F6AB0E 50%, #C84016 100%);
+    color: #fff;
+    border: none;
+}
+#home-remodelling{
+    background-color: rgba(6, 56, 99, 0.03);
+    color: #063863;
+    border-radius: 10px;
+}
+.other-services{
+    background-color: rgba(6, 56, 99, 1);
+    color: #fff;
+    border-radius: 10px;
+}
+.other{
+    margin-top: 100px;
+}
+li{
+    margin-top: 10px;
+}
+.email-border, .location-border{
+    border-bottom:1px solid #F6AB0E;
+    width: max-content;
+}
+.first, .second, .third{
+    border-bottom:1px solid #063863;
+    width: max-content;
+}
+.dropdown-toggle::after {
+    display: block !important;
+    margin-left: 0 !important;
+    /* vertical-align: 0 !important; */
+    content: "";
+    border-top: 0 !important;
+    border-right: 0 !important;
+    border-bottom: 0;
+    border-left: 0 !important;
+}
+.deep:hover{
+    width: 400px;
+}
+.wall:hover{
+    width: 400px;
+}
+.brick:hover{
+    width: 280px;
+    transition: all 0.3sec ease;
+    border: 1px solid #F6AB0E;
+    object-fit: cover;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.wood:hover{
+    width: 280px;
+    transition: all 0.3sec ease;
+    border: 1px solid #F6AB0E;
+    object-fit: cover;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.car:hover{
+    width: 280px;
+    transition: all 0.3sec ease;
+    border: 1px solid #F6AB0E;
+    object-fit: cover;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.car:hover{
+    width: 280px;
+    transition: all 0.3sec ease;
+    border: 1px solid #F6AB0E;
+    object-fit: cover;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.bath:hover{
+    width: 280px;
+    transition: all 0.3sec ease;
+    border: 1px solid #F6AB0E;
+    object-fit: cover;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.painting:hover{
+    width: 280px;
+    transition: all 0.3sec ease;
+    border: 1px solid #F6AB0E;
+    object-fit: cover;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.pop:hover{
+    width: 280px;
+    transition: all 0.3sec ease;
+    border: 1px solid #F6AB0E;
+    object-fit: cover;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
