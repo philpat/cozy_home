@@ -54,8 +54,6 @@ a.btn{
 .contact-text{
     position: relative;
     transform: rotate(-90deg);
-    /* right:-80%; */
-    /* top: -50%; */
     bottom: 50%;
     left: 50%;
 }
@@ -138,17 +136,20 @@ blockquote{
     .hero{
         bottom: -45% !important;
     }
-    .phone-text{
-        display: none !important;
-    }
-    .email-text{
-        display: none !important;
+    .contact-text{
+        position: relative !important;
+        transform: rotate(360deg) !important;
+        bottom: -5% !important;
+        left: -2% !important;
     }
     
 }
 @media (max-width: 768px){
 .test {
     display: none !important;
+}
+.other{
+    margin-top: 15px !important;
 }
 }
 @media (max-width: 992px){
@@ -202,7 +203,7 @@ blockquote{
     color: #063863;
     padding: 8em 2em 5em;
 }
-input[type=text], .contact-email{
+.text, .contact-email{
     width: 100%;
     height: 50px;
     padding: 10px ;
@@ -233,14 +234,14 @@ textarea{
     border-radius: 10px;
 }
 .easy{
-    padding: 1.5% 8%;
+    padding: 2% 8%;
     background: linear-gradient(180deg, #F6AB0E 0%, #F6AB0E 50%, #C84016 100%);
     color: #fff;
     border: none;
 }
-#home-remodelling{
+.home-remodelling{
     background-color: rgba(6, 56, 99, 0.03);
-    color: #063863;
+    color: #063863 !important;
     border-radius: 10px;
 }
 .other-services{
@@ -333,4 +334,19 @@ li{
     object-fit: cover;
     border-radius: 10px;
     box-sizing: border-box;
+}
+.submit-text, .submit-email, .submit-no{
+    width: 100%;
+    height: 40px;
+    outline: none;
+    padding: 2px 5px;
+}
+.form-div{
+    text-transform: capitalize;
+    box-shadow: 3px 4px 4px 4px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
 }
